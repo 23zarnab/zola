@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header{
+    display: flex;
+    margin-left: 10px;
+    margin-top:10px ;  
+    font-family:  Arial; 
+    background-color: white;
+    
+}
+button{
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding: 5px;  
+     
+}
+button:hover{
+    background-color:#22c3bb;
+    color: white;
+}
+.but{
+    display: flex;
+    justify-content: end;
+    padding-left: 600px;
+    padding-bottom:5px ;
+    
+}
+.heading{
+    text-align: center;
+    background-color: rgb(190, 5, 5);
+    color: white;
+}
+.heading p{
+    padding: 5px;
+}
+.pick{
+    background-image: url(flowers-branches-with-camera-notebook-beads-blue-table_23-2148043935.jpg );
+    background-size: cover;
+    padding: 150px 40px;
+}
+.pick h1{
+    font-family: Verdana, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+}
+.pick p{
+    font-family: Verdana, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-align: justify;
+    
+}
+.buts{
+    margin-left: 100px;
+}
+.zah{
+    display: flex;
+}
+.div{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(235, 225, 225);
+    text-align: center;
+}
+
+ 
+.div:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.fa-gift{
+    font-size: 50px;
+    color: rgb(30, 30, 238);
+}
+.fa-percent{
+    font-size: 50px;
+    color: rgb(238, 4, 4);
+}
+footer{
+    text-align: center;
+    background-color: #136c68;
+    color: white;
+}
+
